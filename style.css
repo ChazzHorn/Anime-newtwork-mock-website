@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{
+    font-size: 2.6rem;
+}
+
+li,button,input,p,label{
+    font-size: 2rem;
+
+}
+h2{
+    font-size: 4.8rem;
+}
+h3{
+    font-size: 3rem;
+    font-weight: 400;
+}
+h4,
+h5{
+    font-size: 2.5rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    padding: 2rem 6rem;
+    background-color: #4c6e97;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.8rem;
+
+}
+/* gloabal */
+.nav-head{
+    background-color: black;
+    color: white;
+}
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex: 1 1 40rem;
+    cursor: pointer;
+}
+
+#logo{
+    flex: 3 1 40rem;
+}
+
+/* nav */
+
+.hero{
+min-height: 90vh;
+background-image:linear-gradient(rgba(0,0,0,0.7),transparent), url("/1761337430-huge.jpg");
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.heroHead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.heroHead h2{
+    padding: 5rem;
+}
+.benifits{
+    background-color:rgba(50, 50, 50);
+    min-height: 100vh;
+}
+.benifitHead{
+    width: 90%;
+    margin: auto;
+  
+}
+.benifitHead{
+    padding: 1rem;
+    z-index: 2;
+}
+.benifits{
+   background-image:linear-gradient(rgba(0,0,0,0.7),transparent), url("/nightSky.jpg");
+   background-position: center;
+background-size:cover;
+background-repeat: no-repeat ;
+color: white;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    color: white;
+    text-decoration: underline black;
+    flex-wrap: wrap;
+
+}
+.infoCard{
+    flex: 1 1 40rem;
+    min-height: 40vh;
+    margin: 2rem 5rem;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.infoCard img{
+/* height:20rem ; */
+max-width: 50%;
+    margin: 2rem;
+    animation: shakeing 2s ease-in-out alternate infinite;
+
+}
+.infoCard :hover{
+    animation: grow 5s ease-in-out alternate infinite;
+    box-shadow: blue;
+
+   
+}
+.titleImage img{
+    
+    display: none;
+}
+/* .titleImage img{
+
+} */
+
+@keyframes shakeing{
+    form{
+        transform: translateY(-10%);
+    }
+    from{
+        transform: translateY(0);
+    }
+    from{
+        transform: translateY(10%);
+
+    }
+    to{
+        transform: translateY(0%);
+
+    }
+}
+
+@keyframes grow{
+    form{
+        transform: scale(3 ease-in-out);
+
+    }
+    to{
+        transform: scale(2 ease-in-out);
+
+    }
+}
+
+.news{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),transparent) ,url("/shutterstock_1824531647.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+   
+
+}
+.newsHead{
+    width: 90%;
+    margin: auto;
+    padding: 5rem;
+}
+
+.newsFeedContainer{
+    color:white;
+    height: 50rem;
+   
+   
+}
+.newsFeed::-webkit-scrollbar{
+    display: none;
+}
+.newsFeed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    position: relative;
+  /* border: 1px dotted black; */
+    overflow-y: scroll;
+        padding: 5rem;
+}
+.newsCard {
+    padding: 10rem;
+    margin: 11.1rem;
+    background-color:rgba(0,0,0,0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
